@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+/** Navbar **/
+}
+header{
+    position:fixed;
+    width: 100%;
+    background:white;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+}
+.logo{
+    margin-right: auto;
+    margin-left: 20px;
+    padding: 0px;
+    cursor: pointer;
+    font-size: 20px;
+}
+span{
+    color: red;
+}
+ul{
+    display: flex;
+    padding: 0px;
+    margin:0px;
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+/** /Navbar **/
+
+/** Home **/
+.banner-card{
+    position: fixed;
+}
+.banner-card img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 3000px;
+    height: 654px;
+    position: relative;
+
+}
+.banner-card h1{
+    max-width: 100%;
+    top: 40%;
+    right: 10%;
+    left: 70%;
+    font-size: 30px;
+    position: absolute;
+    color: black;
+}
+
+.banner-card span{
+    color: red;
+}
+
+
+/** /Home **/
+
+/**Menu**/
+.menu{
+    padding-top: 90px;
+}
+
+.spn{
+    color: red;
+}
+
+.heading{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height:auto;
+    padding-top: 50px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
+.card:hover{
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.rate{
+    color: red;
+}
+
+
+@media screen and (max-width: 476px){
+    .card{
+        width: 45%;
+        background-color: white;
+    }
+
+    .container{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .heading{
+        background-color: black;
+        color:white;
+    }
+}   
+/** /Menu **/
+
+/** about **/
+
+.bebas{
+    text-align: justify;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    
+
+}
+
+.about h1{
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+
+}
+.about p{
+    padding-top: 20px;
+}
+
+.gambar img {
+    width: 600px;
+    height: 700px;
+    padding-top: 80px;
+}
+.visi{
+    text-align: center;
+}
+.visi h2{
+    padding-top: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+
+}
+.visi p{
+    font-weight: bold;
+    font-style: italic;
+}
+.misi h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+.misi p{
+    padding-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.en{
+    padding-top: 90px;
+    padding-left: 200px;
+    padding-right: 90px;
+}
+
+@media screen and (max-width:476px){
+    .bebas{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+/**Kontak**/
+
+.contact{
+    padding-top: 80px;
+}
+.contact-title{
+    color:black;
+    text-align: center;
+}
+.ping{
+    margin-top: 20px;
+}
+.sub-wrapper{
+    margin-top: 10px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:2px;
+    text-align: justify;
+}
+.sub-icons-WA{
+    font-size: 20px;
+    color:green;
+}
+.sub-icons-Email{
+    font-size: 20px;
+    color: blue;
+}
+.sub-icons-ig{
+    font-size: 20px;
+    color: orangered;
+}
+.sub-icons-yt{
+    font-size:20px;
+    color: red;
+}
+.sub-wrapper2{
+    background-color: black;
+    color:white;
+    margin-top: 50px;
+}
+.vbar{
+    color: aliceblue;
+    margin-top: 100px;
+}
+.van{
+    margin-top: 100px;
+}
+.sap{
+    margin-top:15px;
+}
+/** /kontak **/
